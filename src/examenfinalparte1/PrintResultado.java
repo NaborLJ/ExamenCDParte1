@@ -27,5 +27,6 @@ public class PrintResultado {
         MetodosCalc mn = new MetodosCalc();
         int nn = mn.VariableNegativa();
         System.out.println("Es: " + nn);
+        
     }
 }
