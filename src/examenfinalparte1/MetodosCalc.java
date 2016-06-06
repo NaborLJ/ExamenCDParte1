@@ -6,6 +6,7 @@ public class MetodosCalc {
     /**
      * Pasandole los parámetros j y m de tipo int realiza una operación mediante el método SumaPrincipal con los datos enviados.
      * Una vez realizada la operación asigna el resultado a la variable i.
+     * Modificado el constuctor. Pasa a ser un método de tipo int. Para facilitar así diferenciarlo de los otros metodos a la hora de llamarlo.
      * @param j variable de tipo int
      * @param m variable de tipo int
      * @return Retornamos la variable i con el valor asignado.
@@ -17,6 +18,7 @@ public class MetodosCalc {
     /**
      * Pasandole unicamente el parametro j realizará la operación del metodo SumaPrincipal,en este caso, sumará j+j.
      * Recoge el resultado de la operación en la variable i.
+     * Modificado el constructor. Pasa a ser un método de tipo int. Para facilitar diferenciarlo mediante su nombre de los demás metodos.
      * @param j variable de tipo int
      * @return Retornamos la variable i con el valor asignado
      */
@@ -26,6 +28,7 @@ public class MetodosCalc {
     }
     /**
      * Asigna como valor a la variable i,-1.
+     * Modificado el constructor. Pasa a ser un método de tipo int. Para facilitar diferenciarlo mediante su nombre de los demás metodos.
      * @return Retornamos la variable i con el valor asignado
      */
     public int VariableNegativa() {
