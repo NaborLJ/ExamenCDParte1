@@ -9,7 +9,7 @@ public class MetodosCalc {
      * @param j variable de tipo int
      * @param m variable de tipo int
      */
-    public MetodosCalc(int j, int m) {
+    public void SumaDosVariables(int j, int m) {
         i = SumaPrincipal(j, m);
     }
     /**
@@ -17,19 +17,19 @@ public class MetodosCalc {
      * Recoge el resultado de la operación en la variable i.
      * @param j variable de tipo int
      */
-    public MetodosCalc(int j) {
+    public void SumaVariableUnica(int j) {
         i = SumaPrincipal(j, j);
     }
     /**
      * Asigna como valor a la variable i,-1.
      */
-    public MetodosCalc() {
+    public void VariableNegativa() {
         i = -1;
     }
     /**
      * Método que contiene la operación principal, a partir de este método realizaremos los demás.
      * Realiza una suma mediante 2 variable x y x1.
-     * @param x variabe de tipo int
+     * @param x variable de tipo int
      * @param x1 variable de tipo int
      * @return 
      */
